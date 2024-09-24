@@ -1,0 +1,124 @@
+/* 为整个页面设置背景图片 */
+body {
+    background-image: url('images/background.jpg'); /* 背景图片路径，根据实际情况修改 */
+    background-size: cover; /* 使背景图片覆盖整个页面 */
+    background-repeat: no-repeat; /* 禁止重复 */
+    background-position: center center; /* 背景图片居中 */
+    background-attachment: fixed; /* 背景图片固定 */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* 设置页面字体 */
+    color: #333; /* 全局字体颜色 */
+}
+
+/* 主容器样式 */
+.container {
+    max-width: 800px;
+    margin: 100px auto; /* 居中显示 */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    border-radius: 8px; /* 圆角效果 */
+}
+
+/* 头部样式 */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* 表单样式 */
+.form-section form {
+    display: flex;
+    flex-direction: column; /* 纵向排列 */
+}
+
+.form-section label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-section input,
+.form-section select,
+.form-section textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* 全宽 */
+    box-sizing: border-box; /* 包含内边距和边框 */
+}
+
+.form-section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50; /* 按钮背景色 */
+    color: white; /* 按钮文本色 */
+    border: none; /* 无边框 */
+    border-radius: 4px; /* 圆角 */
+    cursor: pointer; /* 鼠标样式 */
+    transition: background-color 0.3s ease; /* 过渡效果 */
+}
+
+.form-section button:hover {
+    background-color: #45a049; /* 鼠标悬浮效果 */
+}
+
+/* 结果显示区域 */
+.result-section {
+    margin-top: 20px; /* 上外边距 */
+}
+
+.result-section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#result {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-height: 100px; /* 最小高度 */
+}
+
+/* 导航栏样式 */
+nav {
+    background-color: #0d9411; /* 背景颜色 */
+    padding: 10px 0; /* 内边距 */
+}
+
+nav ul {
+    list-style-type: none; /* 移除列表样式 */
+    margin: 0; /* 外边距 */
+    padding: 0; /* 内边距 */
+    text-align: center; /* 居中对齐 */
+}
+
+nav ul li {
+    display: inline; /* 水平排列 */
+    margin-right: 20px; /* 右外边距 */
+}
+
+nav ul li a {
+    text-decoration: none; /* 移除下划线 */
+    color: #fff; /* 链接颜色 */
+    font-size: 1.1em; /* 字体大小 */
+    padding: 10px 20px; /* 内边距 */
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50; /* 鼠标悬浮背景色 */
+    border-radius: 4px; /* 圆角效果 */
+}

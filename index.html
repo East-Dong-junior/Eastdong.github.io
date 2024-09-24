@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI定制香水服务</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="index.html"></a>主页</li>
+            <li><a href="case1.html"></a>明星产品介绍</li>
+            <li><a href="case2.html"></a>服务介绍</li>
+            <li><a href="aboutus.html"></a>关于我们</li>
+        </ul>
+    </nav>
+
+    <!-- 页面主容器 -->
+    <div class="container">
+        <header>
+            <h1>魔法胡胡胡萝卜🥕的AI定制香水小店</h1>
+            <p>在香气的迷雾中，您是否曾渴望拥有一款只属于自己的香水？欢迎踏入我们神秘的香氛世界，开启一段独特的嗅觉旅程</p >
+            <p>简介：我们的AI定制香水服务如同一位调香师的秘密，倾听您内心深处的渴望。通过您的描述，智能系统将为您揭示那些未曾想象的香气层次，让每一滴香水都充满故事和情感。无论是晨曦的清新还是夜晚的迷醉，我们都将为您调配出完美的香氛，伴您走过每一个瞬间。</p>
+        </header>
+
+        <!-- 香水描述表单 -->
+        <section class="form-section">
+            <form id="perfume-form">
+                <label for="scent">我想要的香水体验：</label>
+                <input type="text" id="scent" name="scent" placeholder=例如：“我喜欢花香和果香的结合，特别是玫瑰与柑橘的混合。”>
+
+                <button type="submit">生成定制香水配方</button>
+            </form>
+        </section>
+
+        <!-- 显示结果的区域 -->
+        <section class="result-section">
+            <h2>您的香水配方：</h2>
+            <div id="result"></div>
+        </section>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
